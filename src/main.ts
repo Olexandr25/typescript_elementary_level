@@ -2,15 +2,18 @@
 // import './codewars/romanNumeralsDecoder.ts'
 // import './codewars/validBraces.ts'
 // import './codewars/digPow.ts'
-import './codewars/greetIsGood.ts'
+// import './codewars/greetIsGood.ts'
 //
 // import './youTube/aliasInterface.ts'
+// import './youTube/tuplesEnums.ts';
+// import './youTube/typeGuard.ts';
+import './youTube/generics.ts';
 //
-import { setupCounter } from './counter.ts'
-import './style.css'
-import './tutorial.ts'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
+import { setupCounter } from './counter.ts';
+import './style.css';
+import './tutorial.ts';
+import typescriptLogo from './typescript.svg';
+import viteLogo from '/vite.svg';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -28,6 +31,6 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       Click on the Vite and TypeScript logos to learn more
     </p>
   </div>
-`
+`;
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+setupCounter(document.querySelector<HTMLButtonElement>('#counter')!);
