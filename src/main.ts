@@ -7,7 +7,8 @@
 // import './youTube/aliasInterface.ts'
 // import './youTube/tuplesEnums.ts';
 // import './youTube/typeGuard.ts';
-import './youTube/generics.ts';
+// import './youTube/generics.ts';
+import './youTube/fetch.ts';
 //
 import { setupCounter } from './counter.ts';
 import './style.css';
