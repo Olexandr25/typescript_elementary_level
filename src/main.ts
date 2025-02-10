@@ -8,7 +8,10 @@
 // import './youTube/tuplesEnums.ts';
 // import './youTube/typeGuard.ts';
 // import './youTube/generics.ts';
-import './youTube/fetch.ts';
+// import './youTube/fetch.ts';
+// import './youTube/classes.ts';
+//
+// import './youTube/practice.ts';
 //
 import { setupCounter } from './counter.ts';
 import './style.css';
@@ -18,10 +21,10 @@ import viteLogo from '/vite.svg';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
+    <a href="/tasks" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
+    <a href="/tasks" target="_blank">
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>Vite + TypeScript</h1>
